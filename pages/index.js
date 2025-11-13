@@ -1,5 +1,5 @@
 function Home(){
-    return <h1>Best Clone of Tabnews</h1>
+    return <h1>Clau esse link funciona?</h1>
 }
 
 export default Home;
