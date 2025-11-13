@@ -6,7 +6,7 @@ function getDateTime(){
 }
 
 function Home(){
-    return <h1>Clau esse link funciona? E isso está certo? {getDateTime}</h1>
+    return <h1>Clau esse link funciona? E isso está certo? {getDateTime()}</h1>
 }
 
 export default Home;
