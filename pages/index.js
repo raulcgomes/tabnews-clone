@@ -6,7 +6,9 @@ function getDateTime(){
 }
 
 function Home(){
-    return <h1>Clau esse link funciona? E isso está certo? {getDateTime()}</h1>
+    return <h1>Desafio do projeto era impactar a vida de alguém que é importante pra mim. <br></br>
+            Te amo mais que tudo nesse mundo! Sou muito grato por vc! <br></br>
+            E esse horario está certo? {getDateTime()}</h1>
 }
 
 if(typeof getDataTime === 'function'){
