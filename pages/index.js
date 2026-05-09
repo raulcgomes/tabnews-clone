@@ -11,10 +11,11 @@ function Home(){
             E esse horario está certo? {getDateTime()}</h1>
 }
 
-if(typeof getDataTime === 'function'){
+if(typeof getDateTime === 'function'){
     console.log("A função getDateTime está definida corretamente.");
 } else {
     console.log("A função getDateTime não está definida.");
+    console.log(typeof getDateTime)
 }
 
 export default Home;
